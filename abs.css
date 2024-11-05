@@ -422,3 +422,94 @@ nav ul li a:hover {
 .about-page ul li {
     margin: 0.5rem 0;
 }
+
+
+/* Media Query for Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    /* Adjust navigation */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 0.5rem;
+    }
+
+    /* Hero Section */
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p {
+        font-size: 1.2rem;
+    }
+
+    /* About, News, and Contact Sections */
+    .about-page, .news-page, .contact-section {
+        padding: 1.5rem;
+    }
+
+    /* Resize images in News items */
+    .news-item img {
+        max-width: 100%;
+    }
+}
+
+/* Media Query for Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    /* Adjust navigation */
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li a {
+        padding: 0.5rem;
+    }
+
+    /* Hero Section */
+    .hero-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    /* About, News, and Contact Sections */
+    .about-page, .news-page, .contact-section {
+        padding: 1rem;
+    }
+
+    /* Adjust logo size */
+    .logo img {
+        height: 40px;
+    }
+
+    /* Resize Sign-in Container */
+    .signin-container {
+        padding: 1.5rem;
+        width: 90%;
+    }
+
+    /* Adjust font sizes in About Page */
+    .about-page h2 {
+        font-size: 2rem;
+    }
+
+    .about-page h3 {
+        font-size: 1.5rem;
+    }
+
+    .about-page p, .about-page ul li {
+        font-size: 0.9rem;
+    }
+
+    /* Resize Social Media Icons */
+    .social-icon {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+}
