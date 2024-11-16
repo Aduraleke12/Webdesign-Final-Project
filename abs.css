@@ -423,6 +423,51 @@ nav ul li a:hover {
     margin: 0.5rem 0;
 }
 
+/* Fixtures Page Styling */
+.fixtures-page {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fixtures-page h2 {
+    font-size: 2.5rem;
+    color: #3b75c5;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.fixture-day {
+    margin-bottom: 2rem;
+}
+
+.fixture-day h3 {
+    font-size: 1.8rem;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.fixture-item {
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.fixture-item p {
+    margin: 0.5rem 0;
+    color: #000000;
+    font-size: 1rem;
+}
+
+.fixture-item strong {
+    color: #3b75c5;
+}
 
 /* Media Query for Tablets (max-width: 768px) */
 @media (max-width: 768px) {
@@ -455,6 +500,29 @@ nav ul li a:hover {
         max-width: 100%;
     }
 }
+@media (max-width: 768px) {
+    .fixtures-page {
+        padding: 1.5rem;
+    }
+
+    .fixtures-page h2 {
+        font-size: 2rem;
+    }
+
+    .fixture-day h3 {
+        font-size: 1.5rem;
+    }
+
+    .fixture-item {
+        padding: 0.8rem;
+    }
+
+    .fixture-item p {
+        font-size: 0.9rem;
+    }
+}
+
+
 
 /* Media Query for Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
@@ -511,5 +579,28 @@ nav ul li a:hover {
     .social-icon {
         padding: 0.5rem 1rem;
         font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .fixtures-page {
+        padding: 1rem;
+    }
+
+    .fixtures-page h2 {
+        font-size: 1.8rem;
+    }
+
+    .fixture-day h3 {
+        font-size: 1.3rem;
+    }
+
+    .fixture-item {
+        padding: 0.5rem;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .fixture-item p {
+        font-size: 0.8rem;
     }
 }
