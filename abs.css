@@ -12,38 +12,7 @@ header {
     top: 0;
 }
 
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    margin-right: 0.5rem;
-    padding: 0;
 
-}
-
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem 0.8rem;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-nav ul li a:hover {
-    background-color: #2a4f8a; 
-    color: #ffcc00;
-}
-
-/* Logo Styling */
-.logo {
-    display: inline-block;
-    margin-right: 1rem;
-}
-
-.logo img {
-    height: 50px;
-    vertical-align: middle;
-}
 
 /* Hero Section */
 .hero-section {
